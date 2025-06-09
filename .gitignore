@@ -1,0 +1,17 @@
+#Folders
+bom/
+output-files/
+*backups/
+Documentacion/
+panels/
+
+#files
+*.bak
+*.dxf
+*.kicad_prl
+*.step
+*.kicad_sch-bak
+fp*
+~*
+_*
+\#auto_saved_files\#

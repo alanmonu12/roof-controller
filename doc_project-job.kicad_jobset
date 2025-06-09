@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "023ceb18-a882-498f-8fd5-418f3af4d132",
+      "settings": {
+        "description": "",
+        "fail_on_error": false,
+        "format": "report",
+        "output_filename": "ERC-report.txt",
+        "severity": 48,
+        "units": "mm"
+      },
+      "type": "sch_erc"
+    },
+    {
+      "description": "",
+      "id": "e76b865b-b58e-429b-95eb-d5d728f29783",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "Clásico de KiCad",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "pdf",
+        "hpgl_page_size": "default",
+        "hpgl_pen_size": 1.0,
+        "hpgl_plot_origin": "A3",
+        "min_pen_width": 847,
+        "output_dir": "",
+        "page_size": "auto",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "use_background_color": true
+      },
+      "type": "sch_export_plot_pdf"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "ea00e064-d171-45ea-a9a6-8e7326b170ea",
+      "only": [],
+      "settings": {
+        "output_path": "${KIPRJMOD}/Documentacion/Source/"
+      },
+      "type": "folder"
+    }
+  ]
+}

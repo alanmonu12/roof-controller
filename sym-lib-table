@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2025-05-27_04-45-26")(type "KiCad")(uri "${KIPRJMOD}/lib/2025-05-27_04-45-26.kicad_sym")(options "")(descr ""))
+  (lib (name "AHT20")(type "KiCad")(uri "${KIPRJMOD}/lib/AHT20/AHT20.kicad_sym")(options "")(descr ""))
+  (lib (name "HLK-5M12")(type "KiCad")(uri "${KIPRJMOD}/lib/HLK-5M12.kicad_sym")(options "")(descr ""))
+  (lib (name "WE-CMB_XS")(type "KiCad")(uri "${KIPRJMOD}/lib/WE-CMB_XS/WE-CMB_XS.kicad_sym")(options "")(descr ""))
+  (lib (name "LM1086CS-3.3")(type "KiCad")(uri "${KIPRJMOD}/lib/LM1086CS-3.3/LM1086CS-3.3.kicad_sym")(options "")(descr ""))
+  (lib (name "LMR54406DBVR")(type "KiCad")(uri "${KIPRJMOD}/lib/LMR54406DBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "74405042100")(type "KiCad")(uri "${KIPRJMOD}/lib/74405042100.kicad_sym")(options "")(descr ""))
+)
