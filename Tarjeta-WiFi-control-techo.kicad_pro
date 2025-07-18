@@ -499,10 +499,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber-view",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "${PROJECTNAME}.step",
+      "step": ".step",
       "svg": "",
       "vrml": ""
     },

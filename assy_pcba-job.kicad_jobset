@@ -24,7 +24,7 @@
       "id": "46eaed36-cd64-4c45-8cca-f67812cea710",
       "settings": {
         "back_fp_property_popups": true,
-        "black_and_white": false,
+        "black_and_white": true,
         "color_theme": "",
         "crossout_dnp_footprints_on_fab_layers": true,
         "description": "",
@@ -83,18 +83,6 @@
         "use_drill_origin": false
       },
       "type": "pcb_export_pdf"
-    },
-    {
-      "description": "",
-      "id": "2b54c616-6c7b-468a-9b85-4d09cc6fef5c",
-      "settings": {
-        "command": "python \"${KICAD9_3RD_PARTY}/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py\" --dark-mode --dest-dir \"${KIPRJMOD}/Documentacion/Ensamble/\" --name-format \"%f_ibom\" --no-browser --extra-data-file ${PROJECTNAME}.kicad_pcb --extra-fields \"MANUFACTURER,MPN\" --dnp-field \"kicad_dnp\" ${PROJECTNAME}.kicad_pcb ",
-        "description": "",
-        "ignore_exit_code": false,
-        "output_filename": "2b54c616-6c7b-468a-9b85-4d09cc6fef5c.log",
-        "record_output": true
-      },
-      "type": "special_execute"
     }
   ],
   "meta": {

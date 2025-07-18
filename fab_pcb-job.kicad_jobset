@@ -116,7 +116,7 @@
       "id": "20745632-5561-434e-9d22-28eba30c6e77",
       "settings": {
         "back_fp_property_popups": true,
-        "black_and_white": false,
+        "black_and_white": true,
         "color_theme": "",
         "crossout_dnp_footprints_on_fab_layers": true,
         "description": "",
@@ -153,13 +153,12 @@
           "In5.Cu",
           "In4.Cu",
           "In3.Cu",
-          "F.Cu"
+          "Edge.Cuts"
         ],
         "layers_to_include_on_all_layers": [
-          "F.SilkS",
-          "Edge.Cuts",
           "F.Mask",
           "F.Paste",
+          "F.SilkS",
           "Dwgs.User"
         ],
         "mirror": false,
@@ -173,6 +172,73 @@
         "plot_ref_des": true,
         "single_document": true,
         "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": false
+      },
+      "type": "pcb_export_pdf"
+    },
+    {
+      "description": "",
+      "id": "9bb1d7a8-526c-4218-a81f-3cb2d16a6242",
+      "settings": {
+        "back_fp_property_popups": true,
+        "black_and_white": false,
+        "color_theme": "",
+        "crossout_dnp_footprints_on_fab_layers": false,
+        "description": "",
+        "drawing_sheet": "",
+        "drill_shape": "full",
+        "front_fp_property_popups": true,
+        "hide_dnp_footprints_on_fab_layers": false,
+        "layers": [
+          "B.Cu",
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "In4.Cu",
+          "In3.Cu",
+          "In2.Cu",
+          "In1.Cu",
+          "F.Cu"
+        ],
+        "layers_to_include_on_all_layers": [
+          "Edge.Cuts"
+        ],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "gerber-view",
+        "pdf_gen_mode": "one-page-per-layer-one-file",
+        "pdf_metadata": true,
+        "plot_drawing_sheet": true,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "single_document": true,
+        "sketch_dnp_footprints_on_fab_layers": false,
         "sketch_pads_on_fab_layers": false,
         "subtract_solder_mask_from_silk": false,
         "use_drill_origin": false
@@ -202,7 +268,8 @@
       "description": "",
       "id": "aac02fc0-458a-4ace-b514-7b9838cf11f2",
       "only": [
-        "20745632-5561-434e-9d22-28eba30c6e77"
+        "20745632-5561-434e-9d22-28eba30c6e77",
+        "9bb1d7a8-526c-4218-a81f-3cb2d16a6242"
       ],
       "settings": {
         "output_path": "${KIPRJMOD}/Documentacion/Fabricacion/"
